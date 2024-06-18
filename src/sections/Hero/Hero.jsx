@@ -4,6 +4,7 @@ import heroImg from "../../assets/hero-img.png";
 function Hero() {
   return (
     <section id="hero">
+      {/* styles.className is being used to keep styles modular */}
       <div className={styles.colorModeContainer}>
         <img
           className={styles.hero}
