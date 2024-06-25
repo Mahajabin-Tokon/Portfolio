@@ -15,11 +15,11 @@ export const ThemeProvider = ({ children }) => {
   //  document.body.setAttribute("data-theme", theme): Sets a custom attribute data-theme on the body element to the current theme. This can be used for theming in CSS.
   // localStorage.setItem("theme", theme): Updates the localStorage with the current theme to persist it across page reloads.
   useEffect(() => {
-    document.body.setAttribute("date-theme", theme);
+    document.body.setAttribute("data-theme", theme);
     localStorage.setItem("theme", theme);
   }, [theme]);
 
-  toggleTheme = () => {
+  const toggleTheme = () => {
     setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
   };
 
