@@ -1,1 +1,12 @@
 /* .module.css allows css styles to be applied locally to the componnent */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    /* dvh content to be displayed in mobile because the address bar might hide some information  */
+    height: 100dvh;
+    min-height: 500px;
+}
