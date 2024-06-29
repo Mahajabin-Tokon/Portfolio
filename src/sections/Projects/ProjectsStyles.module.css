@@ -20,12 +20,21 @@
   a:hover {
     transform: scale(1.05);
   }
+}
 
-  /* Parent needs to be flex in order to scale during transformation */
+/* Parent needs to be flex in order to scale during transformation */
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+@media (width>=800px) {
   .projectsContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 30px;
   }
 }

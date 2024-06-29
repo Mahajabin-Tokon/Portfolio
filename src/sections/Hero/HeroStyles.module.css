@@ -44,36 +44,58 @@
     transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
   }
 
-  button:hover{
+  button:hover {
     transform: scale(1.05);
   }
 
-  button:active{
+  button:active {
     transform: translateY(2px);
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
   }
 }
 
-.colorModeContainer{
-    position: relative;
+.colorModeContainer {
+  position: relative;
 }
 
-.colorMode{
-    position: absolute;
-    right: 0;
-    width: 25px;
+.colorMode {
+  position: absolute;
+  right: 0;
+  width: 25px;
 }
 
-.colorMode:hover{
-    cursor: pointer;
+.colorMode:hover {
+  cursor: pointer;
 }
 
-.description{
-    max-width: 24ch;
+.description {
+  max-width: 24ch;
 }
 
-.info{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (width>=800px) {
+  .container {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .hero {
+      max-width: 350px;
+      width: 350px;
+    }
+  }
+}
+
+@media (width>=1400px) {
+  .container {
+    .hero {
+      max-width: 400px;
+      width: 400px;
+    }
+  }
 }

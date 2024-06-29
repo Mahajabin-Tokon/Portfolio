@@ -14,25 +14,25 @@ function Projects() {
           src={viber}
           link="https://mahajabins-todolist.netlify.app/"
           h3="Retro Todos"
-          p="Todo List App in a Retro style"
+          p="Todo List App"
         />
         <ProjectCard
           src={freshBurger}
           link="https://mahajabins-todolist.netlify.app/"
           h3="Title"
-          p="Lorem ipsum dolor sit amet."
+          p="Lorem ipsum"
         />
         <ProjectCard
           src={hipsster}
           link="https://mahajabins-todolist.netlify.app/"
           h3="Title"
-          p="Lorem ipsum dolor sit amet."
+          p="Lorem ipsum"
         />
         <ProjectCard
           src={fitLift}
           link="https://mahajabins-todolist.netlify.app/"
           h3="Title"
-          p="Lorem ipsum dolor sit amet."
+          p="Lorem ipsum"
         />
       </div>
     </section>
