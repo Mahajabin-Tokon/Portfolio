@@ -73,5 +73,3 @@ The project includes various assets such as images, icons, and a PDF resume. The
 &#169; 2024 Mahajabin Tokon 
 
 ---
-
-This README provides an overview of the project structure and components. For more detailed information, refer to the code and comments within the project files.
